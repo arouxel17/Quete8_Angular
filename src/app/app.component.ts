@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '08_Output';
+  onomatopoeiaList: Array<string>= ['Aoutch','Berk','Ha ha'];
+  onReceiveNewOnomatopia(): void{
+    console.log('New onomatopoeia received');
+  }
 }
